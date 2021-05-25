@@ -1,7 +1,7 @@
 import socket
 
 ip = "" # specify your IP address
-port_list = [] # select the desired port range
+port_list = []  # select the desired port range
 
 for port in port_list:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
